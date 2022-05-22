@@ -1,0 +1,15 @@
+{
+    "extends": "expo/tsconfig.base",
+    "moduleResolution": "node",
+    "compilerOptions": {
+        "strict": true,
+        "jsx": "react-jsx",
+        "paths": {
+            "@/assets/*": ["./app/assets/*"],
+            "@/components/*": ["./app/components/*"],
+            "@/hooks/*": ["./app/hooks/*"],
+            "@/navigation/*": ["./app/navigation/*"],
+            "@/screens/*": ["./app/screens/*"]
+        }
+    }
+}
